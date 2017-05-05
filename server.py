@@ -26,7 +26,7 @@ def lessons():
         return response
 
     cached = cache.get(str(lesson_id))
-
+    # cached[0] is a cached date, cached[0] is a cached data
     if not cached or cached[0] != date:
         # Get steps from stepic, if lesson not in cache or updated
         steps = st.get_text_steps(lesson_id)

@@ -6,5 +6,5 @@ Simple web application for getting some data from stepik
 * Flask
 # Run
 python3 server.py
-# Use
+# Usage
 Get request to http://127.0.0.1:5000/lessons?lesson=6433, where 6433 -- lesson id.

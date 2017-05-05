@@ -1,7 +1,7 @@
 import requests
 import datetime
 
-class Stepik(object):
+class Stepik():
     """Class-wrapper for Stepik API"""
     def __init__(self):
         self.STEPS_API = "https://stepik.org:443/api/steps"
